@@ -44,15 +44,15 @@ scoreboard objectives add searching dummy
 scoreboard objectives add facing_dir dummy
 scoreboard objectives add glass_y dummy
 scoreboard objectives add force_exit dummy
-kill @e[type=minecraft:armor_stand,name=RandBasis,scores={RVglass-pipes-improved=0..}]
-scoreboard objectives add RVglass-pipes-improved dummy
+kill @e[type=minecraft:armor_stand,name=RandBasis,scores={RVglass_pipes=0..}]
+scoreboard objectives add RVglass_pipes dummy
 summon minecraft:armor_stand ~ ~ ~ {CustomName:"\"RandBasis\"", "Invulnerable":1b, "Invisible":1b, "Marker":1b, "NoGravity":1b}
-scoreboard players add @e[type=minecraft:armor_stand,name=RandBasis] RVglass-pipes-improved 1
+scoreboard players add @e[type=minecraft:armor_stand,name=RandBasis] RVglass_pipes 1
 summon minecraft:armor_stand ~ ~ ~ {CustomName:"\"RandBasis\"", "Invulnerable":1b, "Invisible":1b, "Marker":1b, "NoGravity":1b}
-scoreboard players add @e[type=minecraft:armor_stand,name=RandBasis] RVglass-pipes-improved 1
+scoreboard players add @e[type=minecraft:armor_stand,name=RandBasis] RVglass_pipes 1
 summon minecraft:armor_stand ~ ~ ~ {CustomName:"\"RandBasis\"", "Invulnerable":1b, "Invisible":1b, "Marker":1b, "NoGravity":1b}
-scoreboard players add @e[type=minecraft:armor_stand,name=RandBasis] RVglass-pipes-improved 1
-scoreboard players remove @e[type=minecraft:armor_stand,name=RandBasis] RVglass-pipes-improved 1
+scoreboard players add @e[type=minecraft:armor_stand,name=RandBasis] RVglass_pipes 1
+scoreboard players remove @e[type=minecraft:armor_stand,name=RandBasis] RVglass_pipes 1
 scoreboard objectives add Constant dummy
 scoreboard players set c0 Constant 0
 scoreboard players set c1000 Constant 1000

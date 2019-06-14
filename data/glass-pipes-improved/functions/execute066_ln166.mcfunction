@@ -16,5 +16,5 @@ execute store result entity @e[type=minecraft:area_effect_cloud,tag=Position,lim
 execute store result entity @e[type=minecraft:area_effect_cloud,tag=Position,limit=1] Pos[1] double 0.001 run scoreboard players get @e[type=minecraft:area_effect_cloud,tag=Position,limit=1] _pos_1
 execute store result entity @e[type=minecraft:area_effect_cloud,tag=Position,limit=1] Pos[2] double 0.001 run scoreboard players get @e[type=minecraft:area_effect_cloud,tag=Position,limit=1] _pos_2
 scoreboard players set Global mai_scratch2 1
-execute at @e[type=minecraft:area_effect_cloud,tag=Position,limit=1] if block ~ ~ ~ minecraft:air run function glass-pipes-improved:execute063_ln171
+execute at @e[type=minecraft:area_effect_cloud,tag=Position,limit=1] if block ~ ~ ~ #glass-pipes-improved:airlike run function glass-pipes-improved:execute063_ln171
 execute if score Global mai_scratch2 matches 1.. run function glass-pipes-improved:else065_ln171

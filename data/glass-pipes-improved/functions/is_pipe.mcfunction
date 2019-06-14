@@ -12,5 +12,5 @@ scoreboard players operation Global is__scratch0 += Global glass_y
 scoreboard players operation Global is__scratch0 += Global glass_z
 execute store result score Global glass run scoreboard players get Global is__scratch0
 scoreboard players set Global is__scratch0 1
-execute if score Global glass matches 2..2 if block ~ ~ ~ minecraft:air run function glass-pipes-improved:execute052_ln128
+execute if score Global glass matches 2..2 if block ~ ~ ~ #glass-pipes-improved:airlike run function glass-pipes-improved:execute052_ln128
 execute if score Global is__scratch0 matches 1.. run scoreboard players set Global ReturnValue 0

@@ -1,0 +1,3 @@
+scoreboard players set @s initialize 1
+execute as @s run function glass-pipes-improved:pick_dir
+execute if score @s done matches 1.. run function glass-pipes-improved:execute068_ln231

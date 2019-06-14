@@ -1,11 +1,11 @@
 scoreboard players set Global is__scratch0 1
-execute if block ~1 ~ ~ minecraft:glass if block ~-1 ~ ~ minecraft:glass run function glass-pipes-improved:execute049_ln108
+execute if block ~1 ~ ~ #glass-pipes-improved:glasslike if block ~-1 ~ ~ #glass-pipes-improved:glasslike run function glass-pipes-improved:execute049_ln108
 execute if score Global is__scratch0 matches 1.. run scoreboard players set Global glass_x 0
 scoreboard players set Global is__scratch0 1
-execute if block ~ ~1 ~ minecraft:glass if block ~ ~-1 ~ minecraft:glass run function glass-pipes-improved:execute050_ln114
+execute if block ~ ~1 ~ #glass-pipes-improved:glasslike if block ~ ~-1 ~ #glass-pipes-improved:glasslike run function glass-pipes-improved:execute050_ln114
 execute if score Global is__scratch0 matches 1.. run scoreboard players set Global glass_y 0
 scoreboard players set Global is__scratch0 1
-execute if block ~ ~ ~1 minecraft:glass if block ~ ~ ~-1 minecraft:glass run function glass-pipes-improved:execute051_ln120
+execute if block ~ ~ ~1 #glass-pipes-improved:glasslike if block ~ ~ ~-1 #glass-pipes-improved:glasslike run function glass-pipes-improved:execute051_ln120
 execute if score Global is__scratch0 matches 1.. run scoreboard players set Global glass_z 0
 execute store result score Global is__scratch0 run scoreboard players get Global glass_x
 scoreboard players operation Global is__scratch0 += Global glass_y

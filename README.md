@@ -1,6 +1,4 @@
-# glass-pipes-improved
-
-## Download [here](https://github.com/budak7273/glass-pipes-improved/releases), put zip in your save's datapacks folder, then run `/reload` to install.
+# glass-pipes-modded
 
 Edit of [SethBling's datapack](https://www.youtube.com/watch?v=UegvUSNvJ4U) that allows the creation of glass transit pipes in Minecraft in the style of Mario's glass pipes, or [Thermal Expansion's viaducts](https://teamcofh.com/docs/thermal-dynamics/viaduct/). I have modified Seth's pack to allow the usage of stained glass in the construction of the pipe, as well as a number of other blocks, and to make the check for an entrance a bit more lenient to allow for some decoration.
 
